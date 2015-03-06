@@ -1,0 +1,21 @@
+Drill report for /home/gnimm/projects/schematics_pcb/2014/neuromime_Taipei/neuromime_cell/neuromime_ver_001_rev_current.brd
+Created on Mon 30 Jun 2014 11:26:26 PM CST
+Selected Drill Unit: Imperial (")
+
+Drill report for through holes :
+T1  0.020"  0.51mm  (3 holes)
+T2  0.028"  0.71mm  (12 holes)
+T3  0.032"  0.81mm  (101 holes)
+T4  0.035"  0.89mm  (34 holes)
+T5  0.052"  1.32mm  (18 holes)
+T6  0.059"  1.50mm  (4 holes)
+T7  0.120"  3.05mm  (3 holes)
+
+total plated holes count 175
+
+
+Drill report for Not Plated through holes :
+
+total Not Plated holes count 0
+
+
