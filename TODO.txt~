@@ -2,7 +2,7 @@ corrections/errors (Neuromime ver 1.0.0):
 -correct refractory capacitor/resistor labelling to latency capacitor/resistor on top silkscreen layer
 -correct axon labelling, top silkscreen layer
 
-to do:
+to do (for Neuromime ver 1.1.0):
 -implement inhibition input complex (on non-inverting input of LM311)
 -implement refractory period (with another 555 timer)
 -add bill-of-materials, in the meantime contact the maintainer (Peter)
