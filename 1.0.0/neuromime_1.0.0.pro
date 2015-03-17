@@ -26,7 +26,7 @@ TxtLar=80
 MSegLar=100
 LastNetListRead=neuromime_1.0.0.net
 [pcbnew/libraries]
-LibDir=kicadlibs
+LibDir=../kicadlibs
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -41,7 +41,7 @@ LibName11=valves
 LibName12=flemming_feetprint
 [eeschema]
 version=1
-LibDir=kicadlibs
+LibDir=../kicadlibs
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15

@@ -1,0 +1,21 @@
+fabrication_output/
+   -contains gerber output files, drill-files etc. for Neuromime 1.0.0, ready to send to a board house
+   -may contain minor errors (eg. labelling etc.)
+   -not really necessary if you want to use the files below to generate your own fabrication output
+   -these are relabelled from KiCad default naming scheme in a way I feel is clearer using a shell script I will post here some day
+
+INDEX.txt
+   -this file
+
+neuromime_1.0.0.brd
+neuromime_1.0.0-cache.dcm
+neuromime_1.0.0-cache.lib
+neuromime_1.0.0.cmp
+neuromime_1.0.0.lst
+neuromime_1.0.0.net
+neuromime_1.0.0.pro
+neuromime_1.0.0.sch
+   -KiCad project, board and schematic files, you will also need the libraries in the "kicadlibs" folder and to set your path in the .pro file properly
+
+neuromime_ARCHIVE_1.0.0.zip
+   -KiCad project files, same as above but self-contained archive with footprints and components, ie. no need for libraries in "kicadlibs"

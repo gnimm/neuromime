@@ -1,0 +1,12 @@
+corrections and todo for Neuromimes version 1.0.0:
+-correct refractory capacitor/resistor labelling to latency capacitor/resistor
+-implement inhibition input complex (on non-inverting input of LM311)
+-implement refractory period (with another 555 timer)
+-add bill-of-materials, in the meantime contact the maintainer (Peter)
+
+suggestions/ideas:
+-use individual 555 timers instead of 556 dual timer, this way could use low power version of 555, low power 556 not available
+-surface mount version
+-inhibition complex as out-board module for version 1.0.0
+-output module (eg. SSR) in same form factor
+
