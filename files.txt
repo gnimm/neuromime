@@ -1,9 +1,0 @@
-1.0.0
-files.txt
-kicadlibs
-LICENSE.txt
-README.md
-README.md~
-ref
-TODO.txt
-TODO.txt~
