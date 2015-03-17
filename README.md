@@ -1,5 +1,3 @@
-GENERAL DESCRIPTION
-
 The “neuromime” is an electronic model of an organic nerve cell that can be interconnected in chains and loops. It is released here as an open-source hardware project in a collaborative effort by artists Norman White (original concept and design) and Peter Flemming (revision, expansion). Neuromimes are intended for (but not limited to) use in the creation of electro-physical artworks. Neuromimes can also function as the modular core of laboratory-style workshops where participants collectively generate an artwork for exhibition. Neuromimes are extensible building blocks, ideally suited to a collective making setting and/or generative, interactive artworks. Reminiscent of an exquisite corpse, they provide a framework that, while structured, is not scripted.
 
 
@@ -43,24 +41,25 @@ INDEX (most folders have a detailed index as well)
 
 1.0.0/
 
-   -this folder contains the Neuromime board files, schematics, fabrication outputs (Gerber etc.) done in KiCad
+   ---this folder contains the Neuromime board files, schematics, fabrication outputs (Gerber etc.) done in KiCad
 
 kicadlibs/
 
-   -folder contains footprint and schematic device libraries used in Neuromime not included in standard KiCad
+   ---folder contains footprint and schematic device libraries used in Neuromime not included in standard KiCad
 
 ref/
 
-   -folder for supplementary files (Norman's original schematic, other visual information etc.)
+   ---folder for supplementary files (Norman's original schematic, other visual information etc.)
 
 LICENSE.txt
 
-   -Creative Commons license
+   ---Creative Commons license
 
 README.md
 
-   -this file
+   ---this file
 
 TODO.txt
-   -errors, to do, future versions, suggestions, comments
+
+   ---errors, to do, future versions, suggestions, comments
 
