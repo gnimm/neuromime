@@ -23,42 +23,30 @@ PROPERTIES OF AN ORGANIC NEURON
 3. Spatial Summation – It can be made to fire by triggering several of its dendrite receptors simultaneously or virtually so.
 
 4. Latency – It takes awhile for the impulse to travel from the dendrite receptor(s) along the axon to the output points (terminals).
-
 5. Refractory Period – Once fired, it rests awhile before it can respond to stimuli again. 
 
-
 TECHNICAL
-
 -these folders contains files for a printed circuit board generated with KiCad, build: (2012-apr-16-27), http://www.kicad-pcb.org
-
 -important technical annotation is contained in Norman's original schematic in the "ref" folder
-
 -supplementary files (other schematics, visual information) are in the folder "ref"
-
 -see the index below for detailed description of folder contents and files‎
 
 
 INDEX (most folders have a detailed index as well)
 
-
 1.0.0/
-
    -this folder contains the Neuromime board files, schematics, fabrication outputs (Gerber etc.) done in KiCad
 
 kicadlibs/
-
    -folder contains footprint and schematic device libraries used in Neuromime not included in standard KiCad
 
 ref/
-
    -folder for supplementary files (Norman's original schematic, other visual information etc.)
 
 LICENSE.txt
-
    -Creative Commons license
 
 README.md
-
    -this file
 
 TODO.txt
