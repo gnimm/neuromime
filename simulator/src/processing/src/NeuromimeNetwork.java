@@ -35,10 +35,9 @@ public class NeuromimeNetwork extends PApplet {
 	public void setup() {
 		background(0);
 		helpString = "NOTES\n\n"
-				+ "Read all the way through and follow these steps to get started...\n"
-				+ "   - left-click the screen to ensure it has the focus\n"
-				+ "   - press h to toggle this help text on/off\n"
-				+ "   - press n to add a new Neuron (with mouse away from text)\n"
+				+ "- left-click the screen to ensure it has the focus\n"
+				+ "- press h to toggle this help text on/off\n"
+				+ "- press n to add a new Neuron (with mouse away from text)\n"
 				+ "Green nubs are inputs, white nubs are outputs\n"
 				+ "Neurons can be regular neuromimes or signal generators\n"
 				+ "   - press s with mouse over Neuron to toggle signal / neuromime mode\n"
