@@ -1,0 +1,664 @@
+# EESchema Netlist Version 1.1 created  Sun 29 Jun 2014 06:48:04 PM CST
+(
+ ( /53A98F04 $noname  Rpack4 100K {Lib=3_RESISTOR_PACK_BUSSED}
+  (    1 N-000026 )
+  (    2 N-000017 )
+  (    3 N-000004 )
+  (    4 N-000009 )
+ )
+ ( /53A98DF0 $noname  Rpack3 47K {Lib=3_RESISTOR_PACK_BUSSED}
+  (    1 N-000026 )
+  (    2 N-000018 )
+  (    3 N-000046 )
+  (    4 N-000045 )
+ )
+ ( /53A98DB4 $noname  Rpack1 10K {Lib=3_RESISTOR_PACK_BUSSED}
+  (    1 N-000026 )
+  (    2 N-000019 )
+  (    3 N-000001 )
+  (    4 N-000044 )
+ )
+ ( /53AFDB37 $noname  P8 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /53AFDB10 $noname  P7 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /53AD01BF $noname  P6 CONN_1 {Lib=CONN_1}
+  (    1 GND )
+ )
+ ( /53AA9253 $noname  W1 TEST {Lib=TEST}
+  (    1 N-000042 )
+  (    2 N-000042 )
+ )
+ ( /53AA681B $noname  C14 100uF {Lib=CP}
+  (    1 N-000020 )
+  (    2 N-000015 )
+ )
+ ( /53AA6774 $noname  JP21 CAPout {Lib=JUMPER3}
+  (    1 N-000043 )
+  (    2 N-000010 )
+  (    3 N-000020 )
+ )
+ ( /53AA660B $noname  P5 axon_C {Lib=CONN_3}
+  (    1 GND )
+  (    2 N-000047 )
+  (    3 VCC )
+ )
+ ( /53AA6607 $noname  P4 axon_B {Lib=CONN_3}
+  (    1 GND )
+  (    2 N-000015 )
+  (    3 VCC )
+ )
+ ( /53AA65A0 $noname  P3 axon_A {Lib=CONN_3}
+  (    1 GND )
+  (    2 N-000013 )
+  (    3 VCC )
+ )
+ ( /53A9947D $noname  Rpack2 10K_pu {Lib=3_RESISTOR_PACK_BUSSED}
+  (    1 VCC )
+  (    2 N-000016 )
+  (    3 N-000027 )
+  (    4 N-000041 )
+ )
+ ( /53A991B1 $noname  JP18 100K {Lib=JUMPER}
+  (    1 N-000007 )
+  (    2 N-000009 )
+ )
+ ( /53A991B0 $noname  JP14 47K {Lib=JUMPER}
+  (    1 N-000007 )
+  (    2 N-000045 )
+ )
+ ( /53A991AF $noname  K3 dendrite_C {Lib=CONN_3}
+  (    1 GND )
+  (    2 N-000008 )
+  (    3 VCC )
+ )
+ ( /53A991AE $noname  JP12 NORM {Lib=JUMPER}
+  (    1 N-000007 )
+  (    2 N-000044 )
+ )
+ ( /53A991AD $noname  D6 1N4148 {Lib=DIODE}
+  (    1 N-000008 )
+  (    2 N-000007 )
+ )
+ ( /53A991A7 $noname  D4 1N4148 {Lib=DIODE}
+  (    1 N-000002 )
+  (    2 N-000003 )
+ )
+ ( /53A991A6 $noname  JP7 NORM {Lib=JUMPER}
+  (    1 N-000003 )
+  (    2 N-000001 )
+ )
+ ( /53A991A5 $noname  K2 dendrite_B {Lib=CONN_3}
+  (    1 GND )
+  (    2 N-000002 )
+  (    3 VCC )
+ )
+ ( /53A991A4 $noname  JP8 47K {Lib=JUMPER}
+  (    1 N-000003 )
+  (    2 N-000046 )
+ )
+ ( /53A991A3 $noname  JP11 100K {Lib=JUMPER}
+  (    1 N-000003 )
+  (    2 N-000004 )
+ )
+ ( /53A9560F $noname  C12 0.1uF {Lib=C}
+  (    1 N-000022 )
+  (    2 GND )
+ )
+ ( /53A85817 $noname  JP13 bypass {Lib=JUMPER}
+  (    1 N-000010 )
+  (    2 N-000047 )
+ )
+ ( /53A85816 $noname  D7 1N4148 {Lib=DIODE}
+  (    1 N-000010 )
+  (    2 N-000047 )
+ )
+ ( /53A85800 $noname  D5 1N4148 {Lib=DIODE}
+  (    1 N-000043 )
+  (    2 N-000015 )
+ )
+ ( /53A857FF $noname  JP9 bypass {Lib=JUMPER}
+  (    1 N-000043 )
+  (    2 N-000015 )
+ )
+ ( /53A85751 $noname  JP5 bypass {Lib=JUMPER}
+  (    1 N-000010 )
+  (    2 N-000013 )
+ )
+ ( /53A85744 $noname  D3 1N4148 {Lib=DIODE}
+  (    1 N-000010 )
+  (    2 N-000013 )
+ )
+ ( /53A855FE $noname  D8 LED {Lib=LED}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /53A855FD $noname  JP19 OUT_LED {Lib=JUMPER}
+  (    1 N-000011 )
+  (    2 N-000010 )
+ )
+ ( /53A855FC $noname  R7 1K {Lib=R}
+  (    1 N-000011 )
+  (    2 N-000012 )
+ )
+ ( /53A8531C $noname  C7 0.1uF {Lib=C}
+  (    1 N-000014 )
+  (    2 N-000041 )
+ )
+ ( /53A8517D $noname  C11 0.1uF {Lib=C}
+  (    1 N-000034 )
+  (    2 GND )
+ )
+ ( /53A84E8D $noname  C4 0.1uF {Lib=C}
+  (    1 GND )
+  (    2 N-000033 )
+ )
+ ( /53A84E72 $noname  C3 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /53A84E69 $noname  C2 0.1uF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /53A84A54 $noname  C8 1uF {Lib=CP}
+  (    1 N-000027 )
+  (    2 N-000016 )
+ )
+ ( /53A84924 $noname  C5 1uF {Lib=CP}
+  (    1 N-000032 )
+  (    2 GND )
+ )
+ ( /53A84923 $noname  C6 Crfy {Lib=CP}
+  (    1 N-000030 )
+  (    2 GND )
+ )
+ ( /53A84922 $noname  R1 51K {Lib=R}
+  (    1 N-000031 )
+  (    2 VCC )
+ )
+ ( /53A84920 $noname  JP3 C_RFRCRTY {Lib=JUMPER3}
+  (    1 N-000032 )
+  (    2 N-000040 )
+  (    3 N-000030 )
+ )
+ ( /53A8491F $noname  JP1 R_RFRCRTY {Lib=JUMPER3}
+  (    1 N-000031 )
+  (    2 N-000040 )
+  (    3 N-000039 )
+ )
+ ( /53A8491E $noname  R2 R_rfrctry {Lib=R}
+  (    1 N-000039 )
+  (    2 VCC )
+ )
+ ( /53A83F8D $noname  C9 1uF {Lib=CP}
+  (    1 N-000038 )
+  (    2 GND )
+ )
+ ( /53A83F8C $noname  C10 2.2uF {Lib=CP}
+  (    1 N-000037 )
+  (    2 GND )
+ )
+ ( /53A83F8A $noname  JP16 CHARGE_C {Lib=JUMPER3}
+  (    1 N-000038 )
+  (    2 N-000026 )
+  (    3 N-000037 )
+ )
+ ( /53A83EEA $noname  R5 100K {Lib=R}
+  (    1 N-000036 )
+  (    2 GND )
+ )
+ ( /53A83EE9 $noname  JP15 BLEED_R {Lib=JUMPER3}
+  (    1 N-000036 )
+  (    2 N-000026 )
+  (    3 N-000035 )
+ )
+ ( /53A83EE7 $noname  R6 470K {Lib=R}
+  (    1 N-000035 )
+  (    2 GND )
+ )
+ ( /53A83EB3 $noname  R4 Rpwo {Lib=R}
+  (    1 N-000023 )
+  (    2 VCC )
+ )
+ ( /53A83E72 $noname  JP17 R_PW_OUT {Lib=JUMPER3}
+  (    1 N-000024 )
+  (    2 N-000028 )
+  (    3 N-000023 )
+ )
+ ( /53A83D72 $noname  JP20 C_PW_OUT {Lib=JUMPER3}
+  (    1 N-000022 )
+  (    2 N-000028 )
+  (    3 N-000021 )
+ )
+ ( /53A83002 $noname  R3 27K {Lib=R}
+  (    1 N-000024 )
+  (    2 VCC )
+ )
+ ( /53A82FF8 $noname  C13 Cpwo {Lib=CP}
+  (    1 N-000021 )
+  (    2 GND )
+ )
+ ( /53A82CDD $noname  JP6 100K {Lib=JUMPER}
+  (    1 N-000048 )
+  (    2 N-000017 )
+ )
+ ( /53A82CC5 $noname  JP4 47K {Lib=JUMPER}
+  (    1 N-000048 )
+  (    2 N-000018 )
+ )
+ ( /53A82927 $noname  P1 5V {Lib=CONN_2}
+  (    1 GND )
+  (    2 VCC )
+ )
+ ( /53A828B7 $noname  C1 10uF {Lib=CP}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /53A82872 $noname  P2 5V {Lib=CONN_2}
+  (    1 GND )
+  (    2 VCC )
+ )
+ ( /53A8282A $noname  K1 dendrite_A {Lib=CONN_3}
+  (    1 GND )
+  (    2 N-000029 )
+  (    3 VCC )
+ )
+ ( /53A8280C $noname  RV1 POT {Lib=POT}
+  (    1 VCC )
+  (    2 N-000042 )
+  (    3 GND )
+ )
+ ( /53A827FD $noname  JP2 NORM {Lib=JUMPER}
+  (    1 N-000048 )
+  (    2 N-000019 )
+ )
+ ( /53A827D6 $noname  D2 1N4148 {Lib=DIODE}
+  (    1 N-000029 )
+  (    2 N-000048 )
+ )
+ ( /53A8277E $noname  U2 556 {Lib=556}
+  (    1 N-000028 )
+  (    2 N-000028 )
+  (    3 N-000034 )
+  (    4 VCC )
+  (    5 N-000010 )
+  (    6 N-000041 )
+  (    7 GND )
+  (    8 N-000027 )
+  (    9 N-000014 )
+  (   10 VCC )
+  (   11 N-000033 )
+  (   12 N-000040 )
+  (   13 N-000040 )
+  (   14 VCC )
+ )
+ ( /53A81D8F $noname  U1 LM311N {Lib=LM311N}
+  (    1 GND )
+  (    2 N-000042 )
+  (    3 N-000026 )
+  (    4 GND )
+  (    5 N-000025 )
+  (    6 N-000025 )
+  (    7 N-000016 )
+  (    8 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C14
+ CP*
+ SM*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D8
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C13
+ CP*
+ SM*
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ JP7 2
+ Rpack1 3
+Net 2 "" ""
+ D4 1
+ K2 2
+Net 3 "" ""
+ JP11 1
+ JP8 1
+ JP7 1
+ D4 2
+Net 4 "" ""
+ Rpack4 3
+ JP11 2
+Net 5 "GND" "GND"
+ C13 2
+ K1 1
+ U2 7
+ U1 4
+ U1 1
+ C6 2
+ P4 1
+ P5 1
+ P6 1
+ P1 1
+ C1 2
+ P2 1
+ C10 2
+ R6 2
+ R5 2
+ C9 2
+ RV1 3
+ C5 2
+ C2 2
+ C3 2
+ C4 1
+ C11 2
+ K2 1
+ C12 2
+ K3 1
+ D8 2
+ P3 1
+ P7 1
+ P8 1
+Net 6 "VCC" "VCC"
+ C3 1
+ C2 1
+ P2 2
+ K2 3
+ P5 3
+ P3 3
+ Rpack2 1
+ R2 2
+ K3 3
+ U2 4
+ R4 2
+ U2 10
+ U2 14
+ U1 8
+ R3 2
+ P1 2
+ C1 1
+ R1 2
+ K1 3
+ RV1 1
+ P4 3
+Net 7 "" ""
+ JP12 1
+ JP14 1
+ JP18 1
+ D6 2
+Net 8 "" ""
+ K3 2
+ D6 1
+Net 9 "" ""
+ Rpack4 4
+ JP18 2
+Net 10 "" ""
+ JP19 2
+ U2 5
+ D3 1
+ JP5 1
+ JP13 1
+ D7 1
+ JP21 2
+Net 11 "" ""
+ R7 1
+ JP19 1
+Net 12 "" ""
+ R7 2
+ D8 1
+Net 13 "" ""
+ D3 2
+ P3 2
+ JP5 2
+Net 14 "" ""
+ U2 9
+ C7 1
+Net 15 "" ""
+ JP9 2
+ D5 2
+ C14 2
+ P4 2
+Net 16 "" ""
+ U1 7
+ C8 2
+ Rpack2 2
+Net 17 "" ""
+ JP6 2
+ Rpack4 2
+Net 18 "" ""
+ Rpack3 2
+ JP4 2
+Net 19 "" ""
+ Rpack1 2
+ JP2 2
+Net 20 "" ""
+ C14 1
+ JP21 3
+Net 21 "" ""
+ JP20 3
+ C13 1
+Net 22 "" ""
+ C12 1
+ JP20 1
+Net 23 "" ""
+ JP17 3
+ R4 1
+Net 24 "" ""
+ R3 1
+ JP17 1
+Net 25 "" ""
+ U1 5
+ U1 6
+Net 26 "" ""
+ JP16 2
+ JP15 2
+ Rpack4 1
+ U1 3
+ Rpack1 1
+ Rpack3 1
+Net 27 "" ""
+ Rpack2 3
+ U2 8
+ C8 1
+Net 28 "" ""
+ U2 1
+ U2 2
+ JP17 2
+ JP20 2
+Net 29 "" ""
+ D2 1
+ K1 2
+Net 30 "" ""
+ JP3 3
+ C6 1
+Net 31 "" ""
+ JP1 1
+ R1 1
+Net 32 "" ""
+ C5 1
+ JP3 1
+Net 33 "" ""
+ C4 2
+ U2 11
+Net 34 "" ""
+ C11 1
+ U2 3
+Net 35 "" ""
+ R6 1
+ JP15 3
+Net 36 "" ""
+ JP15 1
+ R5 1
+Net 37 "" ""
+ C10 1
+ JP16 3
+Net 38 "" ""
+ JP16 1
+ C9 1
+Net 39 "" ""
+ R2 1
+ JP1 3
+Net 40 "" ""
+ JP1 2
+ JP3 2
+ U2 12
+ U2 13
+Net 41 "" ""
+ Rpack2 4
+ C7 2
+ U2 6
+Net 42 "" ""
+ RV1 2
+ W1 2
+ W1 1
+ U1 2
+Net 43 "" ""
+ JP21 1
+ D5 1
+ JP9 1
+Net 44 "" ""
+ JP12 2
+ Rpack1 4
+Net 45 "" ""
+ JP14 2
+ Rpack3 4
+Net 46 "" ""
+ JP8 2
+ Rpack3 3
+Net 47 "" ""
+ D7 2
+ JP13 2
+ P5 2
+Net 48 "" ""
+ JP2 1
+ D2 2
+ JP6 1
+ JP4 1
+}
+#End
