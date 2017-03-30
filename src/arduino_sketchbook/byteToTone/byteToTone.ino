@@ -25,7 +25,7 @@ void loop() {
   if (currentMillis - previousMillis >= interval) {
     previousMillis = currentMillis;
     
-    //sample byte and store in b
+    //sample byte, store in b
     b = 0;
     for (int i = 0; i < BITS_IN_BYTE; i++)
       if(digitalRead(byte1Pins[i])) b |= 1 << i;
