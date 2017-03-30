@@ -46,8 +46,6 @@ void loop() {
       bPrev = b;
     }
 
-
-
     //toggle led
     digitalWrite(ledPin, !digitalRead(ledPin));
   }
