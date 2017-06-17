@@ -1,0 +1,22 @@
+"red" neuromimes:
+-quantity: 12
+-implemented by Peter during EB residency, winter 2017 
+-fiber optic output on axon B when 'cap' is selected w. axon B output jumper
+-above jumper selects a 47 ohm resistor (soldered in place of 100uF cap)
+-output PW cap, slow (red): 10uF
+-output PW R, slow: 51K
+timings:
+	0.1uF	10uF
+27K	2.97 mS	297 mS
+51K	5.61 mS	561 mS
+
+"blue" neuromimes:
+-quantity: 9
+-implemented by Peter for Stephen's 'Art and Artificial Life' class at NSCAD, summer 2017
+-long output pulse
+-output PW cap, slow: xxuF
+-output PW R, slow: 47M
+timings:
+	0.1uF	100uF
+27K	2.97 mS	xx S
+47M	5.17 S	xx S
