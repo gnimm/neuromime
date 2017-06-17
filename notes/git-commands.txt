@@ -1,0 +1,17 @@
+=== Commands for modifying or adding to the git repository ===
+
+0. Update the local repo to download any remote changes:
+    
+    git pull origin master
+
+1. If adding a new file or directory to version control:
+
+    git add <file or dir>
+
+2. Commit the change locally:
+
+    git commit -a -m "commit message"
+
+3. Push the changes to the remote repo:
+
+    git push origin master
