@@ -14,3 +14,8 @@ suggestions/ideas:
 -make an output module (eg. SSR) in same form factor
 -make a multiple cell board (eg. square or axonometric grid), with fixed number of external inputs and outputs, internal connections routable with jumpers, wirewrap connectors etc.
 
+-high speed neuromimes, operating at, say, audio frequency (20hz-20khz)
+-inspired by the "rate model", spiking neurons
+-blinking lights become fading lights
+-fiber optic connections then have variable strength (weight?) based on pulse frequency (LED brightness)
+-possible to smooth neuromime outputs and connect directly to amp/speaker for tones or dc motor speed (braitenberg?)
