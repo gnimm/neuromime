@@ -42,6 +42,8 @@ void loop() {
       printBits(b);
       Serial.print(" Setting tone: ");
       Serial.println(map(b,0,255,FREQ_MIN,FREQ_MAX));
+      Serial.print(" Duration: ");
+      Serial.println(TONE_DURATION);
       tone(tonePin, map(b,0,255,FREQ_MIN,FREQ_MAX),TONE_DURATION);
       bPrev = b;
     }
