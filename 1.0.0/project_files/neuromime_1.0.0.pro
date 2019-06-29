@@ -1,6 +1,6 @@
-update=Tue 13 Jun 2017 02:44:09 PM EDT
+update=Sun 30 Jun 2019 12:20:16 AM CEST
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 [cvpcb]
@@ -41,37 +41,4 @@ LibName11=valves
 LibName12=flemming_feetprint
 [eeschema]
 version=1
-LibDir=../kicadlibs
-[eeschema/libraries]
-LibName1=neuromime_1.0.0-rescue
-LibName2=flemming_parts
-LibName3=power
-LibName4=device
-LibName5=transistors
-LibName6=conn
-LibName7=linear
-LibName8=regul
-LibName9=74xx
-LibName10=cmos4000
-LibName11=adc-dac
-LibName12=memory
-LibName13=xilinx
-LibName14=special
-LibName15=microcontrollers
-LibName16=dsp
-LibName17=microchip
-LibName18=analog_switches
-LibName19=motorola
-LibName20=texas
-LibName21=intel
-LibName22=audio
-LibName23=interface
-LibName24=digital-audio
-LibName25=philips
-LibName26=display
-LibName27=cypress
-LibName28=siliconi
-LibName29=opto
-LibName30=atmel
-LibName31=contrib
-LibName32=valves
+LibDir=
