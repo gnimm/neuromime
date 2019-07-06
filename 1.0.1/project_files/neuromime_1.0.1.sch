@@ -29,15 +29,6 @@ Wire Wire Line
 	2400 3400 2400 3600
 Wire Wire Line
 	2400 2800 2400 2650
-Connection ~ 2600 2800
-Connection ~ 2900 2800
-Wire Wire Line
-	2900 2800 2900 2850
-Wire Wire Line
-	3200 3250 3200 3400
-Wire Wire Line
-	3200 3400 2900 3400
-Connection ~ 2600 3400
 Wire Wire Line
 	2600 3400 2600 3250
 Wire Wire Line
@@ -63,18 +54,11 @@ Wire Wire Line
 Wire Wire Line
 	6625 5775 6625 5725
 Wire Wire Line
-	2900 3400 2900 3250
-Connection ~ 2900 3400
-Wire Wire Line
-	3200 2850 3200 2800
-Wire Wire Line
 	2600 2800 2600 2850
 Wire Wire Line
 	13625 3500 13625 3550
 Wire Wire Line
 	5075 5425 5075 5525
-Wire Wire Line
-	3200 2800 2900 2800
 $Comp
 L neuromime_1.0.1-rescue:GND-neuromime_1.0.0-rescue #PWR015
 U 1 1 53AD01D1
@@ -211,28 +195,6 @@ F 1 "0.1uF" H 7950 4825 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7900 4925 50  0001 C CNN
 F 3 "" H 7900 4925 50  0001 C CNN
 	1    7900 4925
-	1    0    0    -1  
-$EndComp
-$Comp
-L neuromime_1.0.1-rescue:C-neuromime_1.0.0-rescue C3
-U 1 1 53A84E72
-P 3200 3050
-F 0 "C3" H 3250 3150 50  0000 L CNN
-F 1 "0.1uF" H 3250 2950 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3200 3050 50  0001 C CNN
-F 3 "" H 3200 3050 50  0001 C CNN
-	1    3200 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L neuromime_1.0.1-rescue:C-neuromime_1.0.0-rescue C2
-U 1 1 53A84E69
-P 2900 3050
-F 0 "C2" H 2950 3150 50  0000 L CNN
-F 1 "0.1uF" H 2950 2950 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 2900 3050 50  0001 C CNN
-F 3 "" H 2900 3050 50  0001 C CNN
-	1    2900 3050
 	1    0    0    -1  
 $EndComp
 Text Notes 2650 2500 0    60   ~ 0
@@ -413,15 +375,11 @@ Wire Wire Line
 Wire Wire Line
 	2600 2800 2400 2800
 Wire Wire Line
-	2900 2800 2600 2800
-Wire Wire Line
 	2600 3400 2400 3400
 Wire Wire Line
 	2400 2800 2200 2800
 Wire Wire Line
 	6075 6075 6025 6075
-Wire Wire Line
-	2900 3400 2600 3400
 Wire Wire Line
 	2175 4625 2225 4625
 Wire Wire Line
@@ -711,18 +669,6 @@ F 3 "" H 11275 8700 50  0001 C CNN
 	1    11275 8700
 	1    0    0    -1  
 $EndComp
-$Comp
-L neuromime_1.0.1-rescue:C-neuromime_1.0.0-rescue C14
-U 1 1 5D4BDA1F
-P 11925 3875
-F 0 "C14" H 11975 3975 50  0000 L CNN
-F 1 "Cpout" H 11975 3775 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 11925 3875 50  0001 C CNN
-F 3 "" H 11925 3875 50  0001 C CNN
-	1    11925 3875
-	0    1    1    0   
-$EndComp
-Connection ~ 11725 3875
 Wire Wire Line
 	3850 6425 4075 6425
 Wire Wire Line
@@ -1498,14 +1444,6 @@ $EndComp
 Wire Wire Line
 	2400 3400 2225 3400
 Connection ~ 2400 3400
-Wire Notes Line
-	3525 2700 3525 3525
-Wire Notes Line
-	3525 3525 2500 3525
-Wire Notes Line
-	2500 3525 2500 2700
-Wire Notes Line
-	2500 2700 3525 2700
 Wire Wire Line
 	13625 4450 13625 4400
 Wire Wire Line
@@ -1697,4 +1635,16 @@ Wire Wire Line
 	3850 5325 3850 5300
 Wire Wire Line
 	3850 5925 3850 5950
+$Comp
+L neuromime_1.0.1-rescue:CP-neuromime_1.0.0-rescue C14
+U 1 1 5D216FD8
+P 11925 3875
+F 0 "C14" H 11975 3975 50  0000 L CNN
+F 1 "Cpout" H 11975 3775 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 11925 3875 50  0001 C CNN
+F 3 "" H 11925 3875 50  0001 C CNN
+	1    11925 3875
+	0    -1   1    0   
+$EndComp
+Connection ~ 11725 3875
 $EndSCHEMATC
