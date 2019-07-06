@@ -1,4 +1,4 @@
-update=Sun 04 Nov 2018 09:17:35 PM EST
+update=Sat 06 Jul 2019 03:32:59 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -42,3 +42,13 @@ LibName12=flemming_feetprint
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=118
+ERC_TestSimilarLabels=1

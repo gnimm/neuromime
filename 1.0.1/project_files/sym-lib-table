@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name neuromime_1.0.0-rescue)(type Legacy)(uri ${KIPRJMOD}/neuromime_1.0.0-rescue.lib)(options "")(descr ""))
   (lib (name flemming_parts)(type Legacy)(uri ${PF_KICADLIBS}/flemming_parts.lib)(options "")(descr ""))
+  (lib (name neuromime_1.0.1-rescue)(type Legacy)(uri ${KIPRJMOD}/neuromime_1.0.1-rescue.lib)(options "")(descr ""))
 )

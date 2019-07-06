@@ -1,62 +1,54 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# neuromime_1.0.0-rescue_3_RESISTOR_PACK_BUSSED
+# Device_LED
 #
-DEF neuromime_1.0.0-rescue_3_RESISTOR_PACK_BUSSED Rpack 0 40 Y Y 1 F N
-F0 "Rpack" -100 -750 60 H V C CNN
-F1 "neuromime_1.0.0-rescue_3_RESISTOR_PACK_BUSSED" 250 -150 60 V V C CNN
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
 DRAW
-P 2 0 1 0 -300 -600 -250 -600 N
-P 2 0 1 0 -300 -400 -250 -400 N
-P 2 0 1 0 -300 -200 -250 -200 N
-P 2 0 1 0 50 -600 100 -600 N
-P 2 0 1 0 50 -400 100 -400 N
-P 2 0 1 0 50 -200 100 -200 N
-P 3 0 1 0 100 -600 100 0 -300 0 N
-P 7 0 1 0 -250 -600 -200 -500 -150 -600 -100 -500 -50 -600 0 -500 50 -600 N
-P 7 0 1 0 -250 -400 -200 -300 -150 -400 -100 -300 -50 -400 0 -300 50 -400 N
-P 7 0 1 0 -250 -200 -200 -100 -150 -200 -100 -100 -50 -200 0 -100 50 -200 N
-X ~ 1 -300 300 300 D 50 50 1 1 P
-X ~ 2 -600 -200 300 R 50 50 1 1 P
-X ~ 3 -600 -400 300 R 50 50 1 1 P
-X ~ 4 -600 -600 300 R 50 50 1 1 P
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# neuromime_1.0.0-rescue_556
+# flemming_parts_555
 #
-DEF neuromime_1.0.0-rescue_556 U 0 40 Y Y 1 F N
-F0 "U" 0 -100 50 H V C CNN
-F1 "neuromime_1.0.0-rescue_556" 0 100 50 H V C CNN
+DEF flemming_parts_555 U 0 40 Y Y 1 F N
+F0 "U" 0 -100 70 H V C CNN
+F1 "flemming_parts_555" 0 0 70 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-S -500 -500 500 500 1 0 0 N
-X DIS_A 1 -800 300 300 R 50 50 1 1 I I
-X RES_B 10 800 -100 300 L 50 50 1 1 I I
-X MOD_B 11 800 0 300 L 50 50 1 1 I I
-X THR_B 12 800 100 300 L 50 50 1 1 I I
-X DIS_B 13 800 200 300 L 50 50 1 1 I I
-X VCC 14 800 300 300 L 50 50 1 1 W I
-X THR_A 2 -800 200 300 R 50 50 1 1 I I
-X MOD_A 3 -800 100 300 R 50 50 1 1 I I
-X RES_A 4 -800 0 300 R 50 50 1 1 I I
-X OUT_A 5 -800 -100 300 R 50 50 1 1 O I
-X TRG_A 6 -800 -200 300 R 50 50 1 1 I I
-X GND 7 -800 -300 300 R 50 50 1 1 W I
-X TRG_B 8 800 -300 300 L 50 50 1 1 I I
-X OUT_B 9 800 -200 300 L 50 50 1 1 I I
+S 400 -400 -400 400 0 1 0 N
+X GND 1 -700 -150 300 R 60 60 0 0 W
+X VCC 8 -700 150 300 R 60 60 0 0 W
+X TR 2 -200 -700 300 U 60 60 1 1 I
+X Q 3 700 0 300 L 60 60 1 1 O
+X R 4 200 -700 300 U 60 60 1 1 I I
+X CV 5 200 700 300 D 60 60 1 1 I
+X THR 6 0 700 300 D 60 60 1 1 I
+X DIS 7 -200 700 300 D 60 60 1 1 I
 ENDDRAW
 ENDDEF
 #
-# neuromime_1.0.0-rescue_C
+# neuromime_1.0.1-rescue_C-neuromime_1.0.0-rescue
 #
-DEF neuromime_1.0.0-rescue_C C 0 10 N Y 1 F N
+DEF neuromime_1.0.1-rescue_C-neuromime_1.0.0-rescue C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
-F1 "neuromime_1.0.0-rescue_C" 50 -100 50 H V L CNN
+F1 "neuromime_1.0.1-rescue_C-neuromime_1.0.0-rescue" 50 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -72,11 +64,11 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# neuromime_1.0.0-rescue_CONN_1
+# neuromime_1.0.1-rescue_CONN_1-neuromime_1.0.0-rescue
 #
-DEF ~neuromime_1.0.0-rescue_CONN_1 P 0 30 N N 1 F N
+DEF ~neuromime_1.0.1-rescue_CONN_1-neuromime_1.0.0-rescue P 0 30 N N 1 F N
 F0 "P" 80 0 40 H V L CNN
-F1 "neuromime_1.0.0-rescue_CONN_1" 0 55 30 H I C CNN
+F1 "neuromime_1.0.1-rescue_CONN_1-neuromime_1.0.0-rescue" 0 55 30 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -86,25 +78,11 @@ X 1 1 -150 0 100 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# neuromime_1.0.0-rescue_CONN_2
+# neuromime_1.0.1-rescue_CONN_3-neuromime_1.0.0-rescue
 #
-DEF neuromime_1.0.0-rescue_CONN_2 P 0 40 Y N 1 F N
-F0 "P" -50 0 40 V V C CNN
-F1 "neuromime_1.0.0-rescue_CONN_2" 50 0 40 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -100 150 100 -150 0 1 0 N
-X P1 1 -350 100 250 R 60 60 1 1 P I
-X PM 2 -350 -100 250 R 60 60 1 1 P I
-ENDDRAW
-ENDDEF
-#
-# neuromime_1.0.0-rescue_CONN_3
-#
-DEF neuromime_1.0.0-rescue_CONN_3 K 0 40 Y N 1 F N
+DEF neuromime_1.0.1-rescue_CONN_3-neuromime_1.0.0-rescue K 0 40 Y N 1 F N
 F0 "K" -50 0 50 V V C CNN
-F1 "neuromime_1.0.0-rescue_CONN_3" 50 0 40 V V C CNN
+F1 "neuromime_1.0.1-rescue_CONN_3-neuromime_1.0.0-rescue" 50 0 40 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -115,11 +93,11 @@ X P3 3 -350 -100 250 R 60 60 1 1 P I
 ENDDRAW
 ENDDEF
 #
-# neuromime_1.0.0-rescue_CP
+# neuromime_1.0.1-rescue_CP-neuromime_1.0.0-rescue
 #
-DEF neuromime_1.0.0-rescue_CP C 0 10 N N 1 F N
+DEF neuromime_1.0.1-rescue_CP-neuromime_1.0.0-rescue C 0 10 N N 1 F N
 F0 "C" 50 100 50 H V L CNN
-F1 "neuromime_1.0.0-rescue_CP" 50 -100 50 H V L CNN
+F1 "neuromime_1.0.1-rescue_CP-neuromime_1.0.0-rescue" 50 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -134,11 +112,11 @@ X ~ 2 0 -200 150 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# neuromime_1.0.0-rescue_DIODE
+# neuromime_1.0.1-rescue_DIODE-neuromime_1.0.0-rescue
 #
-DEF neuromime_1.0.0-rescue_DIODE D 0 40 N N 1 F N
+DEF neuromime_1.0.1-rescue_DIODE-neuromime_1.0.0-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 40 H V C CNN
-F1 "neuromime_1.0.0-rescue_DIODE" 0 -100 40 H V C CNN
+F1 "neuromime_1.0.1-rescue_DIODE-neuromime_1.0.0-rescue" 0 -100 40 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -153,11 +131,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# neuromime_1.0.0-rescue_GND
+# neuromime_1.0.1-rescue_GND-neuromime_1.0.0-rescue
 #
-DEF ~neuromime_1.0.0-rescue_GND #PWR 0 0 Y Y 1 F P
+DEF ~neuromime_1.0.1-rescue_GND-neuromime_1.0.0-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 30 H I C CNN
-F1 "neuromime_1.0.0-rescue_GND" 0 -70 30 H I C CNN
+F1 "neuromime_1.0.1-rescue_GND-neuromime_1.0.0-rescue" 0 -70 30 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -166,70 +144,11 @@ X GND 1 0 0 0 U 30 30 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# neuromime_1.0.0-rescue_JUMPER
+# neuromime_1.0.1-rescue_LM311N-neuromime_1.0.0-rescue
 #
-DEF neuromime_1.0.0-rescue_JUMPER JP 0 30 Y N 1 F N
-F0 "JP" 0 150 60 H V C CNN
-F1 "neuromime_1.0.0-rescue_JUMPER" 0 -80 40 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
-X 1 1 -300 0 200 R 60 60 0 1 P I
-X 2 2 300 0 200 L 60 60 0 1 P I
-ENDDRAW
-ENDDEF
-#
-# neuromime_1.0.0-rescue_JUMPER3
-#
-DEF neuromime_1.0.0-rescue_JUMPER3 JP 0 30 Y N 1 F N
-F0 "JP" 50 -100 40 H V L CNN
-F1 "neuromime_1.0.0-rescue_JUMPER3" 0 100 40 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-A -60 10 64 386 1413 0 1 0 N -10 50 -110 50
-A 60 10 64 386 1413 0 1 0 N 110 50 10 50
-C -120 0 35 0 1 0 N
-C 0 0 36 0 1 0 N
-C 120 0 35 0 1 0 N
-X 1 1 -250 0 95 R 40 40 0 1 P
-X 2 2 0 -100 60 U 40 40 0 1 P
-X 3 3 250 0 95 L 40 40 0 1 P
-ENDDRAW
-ENDDEF
-#
-# neuromime_1.0.0-rescue_LED
-#
-DEF neuromime_1.0.0-rescue_LED D 0 40 Y N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "neuromime_1.0.0-rescue_LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 50 50 -50 N
-P 3 0 1 0 -50 50 50 0 -50 -50 F
-P 3 0 1 0 65 -40 110 -80 105 -55 N
-P 3 0 1 0 80 -25 125 -65 120 -40 N
-X A 1 -200 0 150 R 40 40 1 1 P
-X K 2 200 0 150 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# neuromime_1.0.0-rescue_LM311N
-#
-DEF neuromime_1.0.0-rescue_LM311N U 0 20 Y Y 1 F N
+DEF neuromime_1.0.1-rescue_LM311N-neuromime_1.0.0-rescue U 0 20 Y Y 1 F N
 F0 "U" 200 300 70 H V C CNN
-F1 "neuromime_1.0.0-rescue_LM311N" 200 200 70 H V C CNN
+F1 "neuromime_1.0.1-rescue_LM311N-neuromime_1.0.0-rescue" 200 200 70 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -250,11 +169,11 @@ X V+ 8 -100 400 250 D 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# neuromime_1.0.0-rescue_POT
+# neuromime_1.0.1-rescue_POT-neuromime_1.0.0-rescue
 #
-DEF neuromime_1.0.0-rescue_POT RV 0 40 Y N 1 F N
+DEF neuromime_1.0.1-rescue_POT-neuromime_1.0.0-rescue RV 0 40 Y N 1 F N
 F0 "RV" 0 -100 50 H V C CNN
-F1 "neuromime_1.0.0-rescue_POT" 0 0 50 H V C CNN
+F1 "neuromime_1.0.1-rescue_POT-neuromime_1.0.0-rescue" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -266,11 +185,11 @@ X 3 3 250 0 100 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# neuromime_1.0.0-rescue_R
+# neuromime_1.0.1-rescue_R-neuromime_1.0.0-rescue
 #
-DEF neuromime_1.0.0-rescue_R R 0 0 N Y 1 F N
+DEF neuromime_1.0.1-rescue_R-neuromime_1.0.0-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "neuromime_1.0.0-rescue_R" 0 0 50 V V C CNN
+F1 "neuromime_1.0.1-rescue_R-neuromime_1.0.0-rescue" 0 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -285,11 +204,11 @@ X ~ 2 0 -250 100 U 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# neuromime_1.0.0-rescue_TEST
+# neuromime_1.0.1-rescue_TEST-neuromime_1.0.0-rescue
 #
-DEF neuromime_1.0.0-rescue_TEST W 0 30 N N 1 F N
+DEF neuromime_1.0.1-rescue_TEST-neuromime_1.0.0-rescue W 0 30 N N 1 F N
 F0 "W" 0 60 40 H V C CNN
-F1 "neuromime_1.0.0-rescue_TEST" 0 -70 40 H V C CNN
+F1 "neuromime_1.0.1-rescue_TEST-neuromime_1.0.0-rescue" 0 -70 40 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
