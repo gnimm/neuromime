@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name flemming_feetprint_2019)(type KiCad)(uri ${NEUROMIMELIBS}/flemming_feetprint_2019.pretty)(options "")(descr ""))
+)

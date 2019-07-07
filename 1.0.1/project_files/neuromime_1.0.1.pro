@@ -24,7 +24,7 @@ DrawLar=100
 EdgeLar=100
 TxtLar=80
 MSegLar=100
-LastNetListRead=neuromime_1.0.0.net
+LastNetListRead=neuromime_1.0.1.net
 [pcbnew/libraries]
 LibDir=../kicadlibs
 LibName1=sockets
