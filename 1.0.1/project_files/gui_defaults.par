@@ -4,7 +4,7 @@
     (board_frame
       visible
       (bounds
-        120 0 1154 934
+        -2 0 1924 1082
       )
     )
     (color_manager
@@ -28,7 +28,7 @@
     (display_miscellanious
       not_visible
       (bounds
-        0 350 235 351
+        0 350 241 333
       )
     )
     (snapshots
@@ -70,13 +70,13 @@
     (clearance_matrix
       not_visible
       (bounds
-        -2 0 2564 1442
+        0 0 1284 438
       )
     )
     (via_rules
       not_visible
       (bounds
-        50 150 335 450
+        50 150 328 468
       )
     )
     (edit_vias

@@ -18,11 +18,6 @@ Wire Wire Line
 	4600 3075 4600 3175
 Wire Wire Line
 	2200 2700 2200 2800
-Connection ~ 5475 5525
-Wire Wire Line
-	5475 5425 5475 5525
-Wire Wire Line
-	5625 5525 5475 5525
 Wire Wire Line
 	13625 3800 13625 3750
 Wire Wire Line
@@ -57,8 +52,6 @@ Wire Wire Line
 	2600 2800 2600 2850
 Wire Wire Line
 	13625 3500 13625 3550
-Wire Wire Line
-	5075 5425 5075 5525
 $Comp
 L neuromime_1.0.1-rescue:GND-neuromime_1.0.0-rescue #PWR015
 U 1 1 53AD01D1
@@ -84,17 +77,6 @@ $EndComp
 Text Notes 4400 3500 0    60   ~ 0
 grounded \nmounting hole
 $Comp
-L neuromime_1.0.1-rescue:TEST-neuromime_1.0.0-rescue W1
-U 1 1 53AA9253
-P 5275 5425
-F 0 "W1" H 5275 5485 40  0000 C CNN
-F 1 "TSTinh" H 5275 5355 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5275 5425 50  0001 C CNN
-F 3 "" H 5275 5425 50  0001 C CNN
-	1    5275 5425
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR040
 U 1 1 53AA66CE
 P 13625 3500
@@ -111,7 +93,7 @@ U 1 1 53AA660B
 P 13975 3650
 F 0 "P2" V 13925 3650 50  0000 C CNN
 F 1 "axon" V 14025 3650 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 13975 3650 50  0001 C CNN
+F 2 "flemming_feetprint_2016:PinHeader_1x03_P2.54mm_Horizontal_elomgated_pads" H 13975 3650 50  0001 C CNN
 F 3 "" H 13975 3650 50  0001 C CNN
 	1    13975 3650
 	1    0    0    1   
@@ -207,7 +189,7 @@ U 1 1 53A84A54
 P 7200 5625
 F 0 "C6" H 7250 5725 50  0000 L CNN
 F 1 "1uF" H 7250 5525 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 7200 5625 50  0001 C CNN
+F 2 "flemming_feetprint_2016:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside" H 7200 5625 50  0001 C CNN
 F 3 "" H 7200 5625 50  0001 C CNN
 	1    7200 5625
 	0    1    1    0   
@@ -218,7 +200,7 @@ U 1 1 53A84924
 P 8875 3875
 F 0 "C8" H 8925 3975 50  0000 L CNN
 F 1 "Clate" H 8925 3775 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 8875 3875 50  0001 C CNN
+F 2 "flemming_feetprint_2016:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside" H 8875 3875 50  0001 C CNN
 F 3 "" H 8875 3875 50  0001 C CNN
 	1    8875 3875
 	0    -1   -1   0   
@@ -284,7 +266,7 @@ U 1 1 53A83F8D
 P 4625 6225
 F 0 "C5" H 4675 6325 50  0000 L CNN
 F 1 "Cpk_exct" H 4675 6125 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4625 6225 50  0001 C CNN
+F 2 "flemming_feetprint_2016:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside" H 4625 6225 50  0001 C CNN
 F 3 "" H 4625 6225 50  0001 C CNN
 	1    4625 6225
 	1    0    0    -1  
@@ -321,7 +303,7 @@ U 1 1 53A828B7
 P 2600 3050
 F 0 "C1" H 2650 3150 50  0000 L CNN
 F 1 "10uF" H 2650 2950 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 2600 3050 50  0001 C CNN
+F 2 "flemming_feetprint_2016:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside" H 2600 3050 50  0001 C CNN
 F 3 "" H 2600 3050 50  0001 C CNN
 	1    2600 3050
 	1    0    0    -1  
@@ -354,7 +336,7 @@ U 1 1 53A8280C
 P 3850 6175
 F 0 "RV2" H 3850 6075 50  0000 C CNN
 F 1 "BIASxct" H 3850 6175 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 3850 6175 50  0001 C CNN
+F 2 "flemming_feetprint_2016:Potentiometer_Bourns_3266W_Vertical_pin_variation" H 3850 6175 50  0001 C CNN
 F 3 "" H 3850 6175 50  0001 C CNN
 	1    3850 6175
 	0    1    -1   0   
@@ -370,8 +352,6 @@ F 3 "" H 6125 5625 50  0001 C CNN
 	1    6125 5625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5475 5525 5075 5525
 Wire Wire Line
 	2600 2800 2400 2800
 Wire Wire Line
@@ -396,7 +376,7 @@ U 1 1 5D37863E
 P 1825 4625
 F 0 "K1" V 1775 4625 50  0000 C CNN
 F 1 "inhibit" V 1975 4625 40  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 1825 4625 50  0001 C CNN
+F 2 "flemming_feetprint_2016:PinSocket_1x03_P2.54mm_Horizontal_elongated" H 1825 4625 50  0001 C CNN
 F 3 "" H 1825 4625 50  0001 C CNN
 	1    1825 4625
 	-1   0    0    1   
@@ -424,37 +404,16 @@ F 3 "" H 2225 4475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L neuromime_1.0.1-rescue:DIODE-neuromime_1.0.0-rescue D1
+L neuromime_1.0.1-rescue:DIODE-neuromime_1.0.0-rescue D4
 U 1 1 5D378651
 P 2425 4625
-F 0 "D1" H 2425 4725 40  0000 C CNN
+F 0 "D4" H 2425 4725 40  0000 C CNN
 F 1 "1N4148" H 2425 4525 40  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 2425 4625 50  0001 C CNN
 F 3 "" H 2425 4625 50  0001 C CNN
 	1    2425 4625
 	1    0    0    -1  
 $EndComp
-Connection ~ 5475 5725
-Wire Wire Line
-	5475 5625 5475 5725
-Wire Wire Line
-	5625 5725 5475 5725
-Wire Wire Line
-	5075 5625 5075 5725
-Connection ~ 5075 5725
-$Comp
-L neuromime_1.0.1-rescue:TEST-neuromime_1.0.0-rescue W2
-U 1 1 5D3B3FF1
-P 5275 5625
-F 0 "W2" H 5275 5685 40  0000 C CNN
-F 1 "TSTxct" H 5275 5555 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5275 5625 50  0001 C CNN
-F 3 "" H 5275 5625 50  0001 C CNN
-	1    5275 5625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5475 5725 5075 5725
 $Comp
 L flemming_parts:555 U2
 U 1 1 5D3E0EE0
@@ -690,8 +649,6 @@ Wire Wire Line
 Connection ~ 4275 5925
 Wire Wire Line
 	4450 5725 4450 5925
-Wire Wire Line
-	4450 5725 5075 5725
 Connection ~ 4450 5925
 Wire Wire Line
 	4450 5925 4625 5925
@@ -714,7 +671,7 @@ U 1 1 5D50DA60
 P 4625 5025
 F 0 "C4" H 4675 5125 50  0000 L CNN
 F 1 "Cpk_inh" H 4675 4925 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4625 5025 50  0001 C CNN
+F 2 "flemming_feetprint_2016:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside" H 4625 5025 50  0001 C CNN
 F 3 "" H 4625 5025 50  0001 C CNN
 	1    4625 5025
 	1    0    0    1   
@@ -747,7 +704,7 @@ U 1 1 5D50DA72
 P 3850 5075
 F 0 "RV1" H 3850 4975 50  0000 C CNN
 F 1 "BIASinh" H 3850 5075 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 3850 5075 50  0001 C CNN
+F 2 "flemming_feetprint_2016:Potentiometer_Bourns_3266W_Vertical_pin_variation" H 3850 5075 50  0001 C CNN
 F 3 "" H 3850 5075 50  0001 C CNN
 	1    3850 5075
 	0    1    1    0   
@@ -776,7 +733,6 @@ Wire Wire Line
 Connection ~ 4450 5325
 Wire Wire Line
 	4450 5325 4625 5325
-Connection ~ 5075 5525
 Wire Notes Line
 	4025 6450 4025 5800
 Wire Notes Line
@@ -794,12 +750,12 @@ Wire Notes Line
 Wire Notes Line
 	4850 4775 4175 4775
 $Comp
-L neuromime_1.0.1-rescue:R-neuromime_1.0.0-rescue R1
+L neuromime_1.0.1-rescue:R-neuromime_1.0.0-rescue R4
 U 1 1 5D52F850
 P 2875 4625
-F 0 "R1" V 2955 4625 50  0000 C CNN
+F 0 "R4" V 2955 4625 50  0000 C CNN
 F 1 "Zinh" V 2875 4625 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2875 4625 50  0001 C CNN
+F 2 "flemming_feetprint_2016:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_pad_numbers_reversed" H 2875 4625 50  0001 C CNN
 F 3 "" H 2875 4625 50  0001 C CNN
 	1    2875 4625
 	0    1    -1   0   
@@ -820,7 +776,7 @@ U 1 1 5D53B932
 P 1825 6325
 F 0 "K3" V 1775 6325 50  0000 C CNN
 F 1 "excite" V 1975 6325 40  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 1825 6325 50  0001 C CNN
+F 2 "flemming_feetprint_2016:PinSocket_1x03_P2.54mm_Horizontal_elongated" H 1825 6325 50  0001 C CNN
 F 3 "" H 1825 6325 50  0001 C CNN
 	1    1825 6325
 	-1   0    0    1   
@@ -848,10 +804,10 @@ F 3 "" H 2225 6175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L neuromime_1.0.1-rescue:DIODE-neuromime_1.0.0-rescue D3
+L neuromime_1.0.1-rescue:DIODE-neuromime_1.0.0-rescue D2
 U 1 1 5D53B944
 P 2425 6325
-F 0 "D3" H 2425 6425 40  0000 C CNN
+F 0 "D2" H 2425 6425 40  0000 C CNN
 F 1 "1N4148" H 2425 6225 40  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 2425 6325 50  0001 C CNN
 F 3 "" H 2425 6325 50  0001 C CNN
@@ -859,12 +815,12 @@ F 3 "" H 2425 6325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L neuromime_1.0.1-rescue:R-neuromime_1.0.0-rescue R3
+L neuromime_1.0.1-rescue:R-neuromime_1.0.0-rescue R2
 U 1 1 5D53B94A
 P 2875 6325
-F 0 "R3" V 2955 6325 50  0000 C CNN
+F 0 "R2" V 2955 6325 50  0000 C CNN
 F 1 "Zxct" V 2875 6325 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2875 6325 50  0001 C CNN
+F 2 "flemming_feetprint_2016:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_pad_numbers_reversed" H 2875 6325 50  0001 C CNN
 F 3 "" H 2875 6325 50  0001 C CNN
 	1    2875 6325
 	0    1    -1   0   
@@ -885,7 +841,7 @@ U 1 1 5D540035
 P 1825 5725
 F 0 "K2" V 1775 5725 50  0000 C CNN
 F 1 "excite" V 1975 5725 40  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 1825 5725 50  0001 C CNN
+F 2 "flemming_feetprint_2016:PinSocket_1x03_P2.54mm_Horizontal_elongated" H 1825 5725 50  0001 C CNN
 F 3 "" H 1825 5725 50  0001 C CNN
 	1    1825 5725
 	-1   0    0    1   
@@ -913,10 +869,10 @@ F 3 "" H 2225 5575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L neuromime_1.0.1-rescue:DIODE-neuromime_1.0.0-rescue D2
+L neuromime_1.0.1-rescue:DIODE-neuromime_1.0.0-rescue D1
 U 1 1 5D540047
 P 2425 5725
-F 0 "D2" H 2425 5825 40  0000 C CNN
+F 0 "D1" H 2425 5825 40  0000 C CNN
 F 1 "1N4148" H 2425 5625 40  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 2425 5725 50  0001 C CNN
 F 3 "" H 2425 5725 50  0001 C CNN
@@ -924,12 +880,12 @@ F 3 "" H 2425 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L neuromime_1.0.1-rescue:R-neuromime_1.0.0-rescue R2
+L neuromime_1.0.1-rescue:R-neuromime_1.0.0-rescue R1
 U 1 1 5D54004D
 P 2875 5725
-F 0 "R2" V 2955 5725 50  0000 C CNN
+F 0 "R1" V 2955 5725 50  0000 C CNN
 F 1 "Zxct" V 2875 5725 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2875 5725 50  0001 C CNN
+F 2 "flemming_feetprint_2016:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_pad_numbers_reversed" H 2875 5725 50  0001 C CNN
 F 3 "" H 2875 5725 50  0001 C CNN
 	1    2875 5725
 	0    1    -1   0   
@@ -950,7 +906,7 @@ U 1 1 5D544DBD
 P 1825 6925
 F 0 "K4" V 1775 6925 50  0000 C CNN
 F 1 "excite" V 1975 6925 40  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 1825 6925 50  0001 C CNN
+F 2 "flemming_feetprint_2016:PinSocket_1x03_P2.54mm_Horizontal_elongated" H 1825 6925 50  0001 C CNN
 F 3 "" H 1825 6925 50  0001 C CNN
 	1    1825 6925
 	-1   0    0    1   
@@ -978,10 +934,10 @@ F 3 "" H 2225 6775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L neuromime_1.0.1-rescue:DIODE-neuromime_1.0.0-rescue D4
+L neuromime_1.0.1-rescue:DIODE-neuromime_1.0.0-rescue D3
 U 1 1 5D544DCF
 P 2425 6925
-F 0 "D4" H 2425 7025 40  0000 C CNN
+F 0 "D3" H 2425 7025 40  0000 C CNN
 F 1 "1N4148" H 2425 6825 40  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 2425 6925 50  0001 C CNN
 F 3 "" H 2425 6925 50  0001 C CNN
@@ -989,26 +945,22 @@ F 3 "" H 2425 6925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L neuromime_1.0.1-rescue:R-neuromime_1.0.0-rescue R4
+L neuromime_1.0.1-rescue:R-neuromime_1.0.0-rescue R3
 U 1 1 5D544DD5
 P 2875 6925
-F 0 "R4" V 2955 6925 50  0000 C CNN
+F 0 "R3" V 2955 6925 50  0000 C CNN
 F 1 "Zxct" V 2875 6925 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2875 6925 50  0001 C CNN
+F 2 "flemming_feetprint_2016:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_pad_numbers_reversed" H 2875 6925 50  0001 C CNN
 F 3 "" H 2875 6925 50  0001 C CNN
 	1    2875 6925
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	4450 5725 3125 5725
-Connection ~ 4450 5725
-Wire Wire Line
-	4450 5525 5075 5525
 Wire Wire Line
 	4450 5525 3125 5525
 Wire Wire Line
 	3125 5525 3125 5150
-Connection ~ 4450 5525
 Wire Wire Line
 	3125 6325 3125 6925
 Wire Wire Line
@@ -1110,14 +1062,6 @@ Wire Notes Line
 	3225 4300 1575 4300
 Wire Notes Line
 	1575 4300 1575 5375
-Wire Notes Line
-	5000 5475 5525 5475
-Wire Notes Line
-	5525 5475 5525 5325
-Wire Notes Line
-	5525 5325 5000 5325
-Wire Notes Line
-	5000 5325 5000 5475
 Wire Notes Line style solid
 	1675 4100 1175 4100
 Wire Notes Line style solid
@@ -1202,7 +1146,7 @@ U 1 1 5D60A6C3
 P 11925 6425
 F 0 "C17" H 11975 6525 50  0000 L CNN
 F 1 "Crest" H 11975 6325 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 11925 6425 50  0001 C CNN
+F 2 "flemming_feetprint_2016:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside" H 11925 6425 50  0001 C CNN
 F 3 "" H 11925 6425 50  0001 C CNN
 	1    11925 6425
 	0    -1   -1   0   
@@ -1465,7 +1409,7 @@ U 1 1 5D777850
 P 13975 4300
 F 0 "P3" V 13925 4300 50  0000 C CNN
 F 1 "axon" V 14025 4300 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 13975 4300 50  0001 C CNN
+F 2 "flemming_feetprint_2016:PinHeader_1x03_P2.54mm_Horizontal_elomgated_pads" H 13975 4300 50  0001 C CNN
 F 3 "" H 13975 4300 50  0001 C CNN
 	1    13975 4300
 	1    0    0    1   
@@ -1502,7 +1446,7 @@ U 1 1 5D77E778
 P 13975 4925
 F 0 "P4" V 13925 4925 50  0000 C CNN
 F 1 "axon" V 14025 4925 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 13975 4925 50  0001 C CNN
+F 2 "flemming_feetprint_2016:PinHeader_1x03_P2.54mm_Horizontal_elomgated_pads" H 13975 4925 50  0001 C CNN
 F 3 "" H 13975 4925 50  0001 C CNN
 	1    13975 4925
 	1    0    0    1   
@@ -1539,7 +1483,7 @@ U 1 1 5D785996
 P 13975 7475
 F 0 "P5" V 13925 7475 50  0000 C CNN
 F 1 "long" V 14025 7475 40  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 13975 7475 50  0001 C CNN
+F 2 "flemming_feetprint_2016:PinHeader_1x03_P2.54mm_Horizontal_elomgated_pads" H 13975 7475 50  0001 C CNN
 F 3 "" H 13975 7475 50  0001 C CNN
 	1    13975 7475
 	1    0    0    1   
@@ -1641,10 +1585,16 @@ U 1 1 5D216FD8
 P 11925 3875
 F 0 "C14" H 11975 3975 50  0000 L CNN
 F 1 "Cpout" H 11975 3775 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 11925 3875 50  0001 C CNN
+F 2 "flemming_feetprint_2016:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside" H 11925 3875 50  0001 C CNN
 F 3 "" H 11925 3875 50  0001 C CNN
 	1    11925 3875
 	0    -1   1    0   
 $EndComp
 Connection ~ 11725 3875
+Wire Wire Line
+	5625 5525 4450 5525
+Connection ~ 4450 5525
+Wire Wire Line
+	5625 5725 4450 5725
+Connection ~ 4450 5725
 $EndSCHEMATC
