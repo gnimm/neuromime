@@ -9,7 +9,7 @@ Norman White on wikipedia: http://en.wikipedia.org/wiki/Norman_White
 
 Norman White's website with other projects: http://normill.ca/
 
-Peter Flemming's website with other projects: http://peterflemming.ca
+Peter Flemming's website with other projects: http://peterflemming.net
 
 
 PROPERTIES OF AN ORGANIC NEURON
