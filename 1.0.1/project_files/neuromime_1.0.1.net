@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/gnimm/projects/schematics_pcb/neuromime/1.0.1/project_files/neuromime_1.0.1.sch)
-    (date "Sun 07 Jul 2019 06:49:51 PM CEST")
+    (date "Mon 08 Jul 2019 10:38:41 AM CEST")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref P1)
       (value mnt)
-      (footprint MountingHole:MountingHole_4.5mm)
+      (footprint flemming_feetprint_2019:MountingHole_4.5mm_PTH)
       (libsource (lib neuromime_1.0.1-rescue) (part CONN_1-neuromime_1.0.0-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 53AD01BF))
@@ -103,7 +103,7 @@
       (value 555late)
       (footprint Package_DIP:DIP-8_W7.62mm_Socket)
       (datasheet ns/lm555.pdf)
-      (libsource (lib flemming_parts) (part 555) (description ""))
+      (libsource (lib neuromime_1.0.1-rescue) (part 555-flemming_parts) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D3E0EE0))
     (comp (ref C15)
@@ -128,7 +128,7 @@
       (value 555pout)
       (footprint Package_DIP:DIP-8_W7.62mm_Socket)
       (datasheet ns/lm555.pdf)
-      (libsource (lib flemming_parts) (part 555) (description ""))
+      (libsource (lib neuromime_1.0.1-rescue) (part 555-flemming_parts) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D49F6D7))
     (comp (ref W3)
@@ -273,7 +273,7 @@
       (value 555rest)
       (footprint Package_DIP:DIP-8_W7.62mm_Socket)
       (datasheet ns/lm555.pdf)
-      (libsource (lib flemming_parts) (part 555) (description ""))
+      (libsource (lib neuromime_1.0.1-rescue) (part 555-flemming_parts) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D60A6D5))
     (comp (ref C11)
@@ -351,11 +351,10 @@
       (pins
         (pin (num 1) (name K) (type passive))
         (pin (num 2) (name A) (type passive))))
-    (libpart (lib flemming_parts) (part 555)
-      (docs ns/lm555.pdf)
+    (libpart (lib neuromime_1.0.1-rescue) (part 555-flemming_parts)
       (fields
         (field (name Reference) U)
-        (field (name Value) 555))
+        (field (name Value) 555-flemming_parts))
       (pins
         (pin (num 1) (name GND) (type power_in))
         (pin (num 2) (name TR) (type input))
@@ -452,8 +451,6 @@
   (libraries
     (library (logical Device)
       (uri /usr/share/kicad/library/Device.lib))
-    (library (logical flemming_parts)
-      (uri /home/gnimm/projects/schematics_pcb/neuromime/kicadlibs/flemming_parts.lib))
     (library (logical neuromime_1.0.1-rescue)
       (uri /home/gnimm/projects/schematics_pcb/neuromime/1.0.1/project_files/neuromime_1.0.1-rescue.lib)))
   (nets

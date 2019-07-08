@@ -69,7 +69,7 @@ U 1 1 53AD01BF
 P 4600 2925
 F 0 "P1" H 4680 2925 40  0000 L CNN
 F 1 "mnt" H 4600 2980 30  0001 C CNN
-F 2 "MountingHole:MountingHole_4.5mm" H 4600 2925 50  0001 C CNN
+F 2 "flemming_feetprint_2019:MountingHole_4.5mm_PTH" H 4600 2925 50  0001 C CNN
 F 3 "" H 4600 2925 50  0001 C CNN
 	1    4600 2925
 	0    -1   -1   0   
@@ -415,7 +415,7 @@ F 3 "" H 2425 4625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L flemming_parts:555 U2
+L neuromime_1.0.1-rescue:555-flemming_parts U2
 U 1 1 5D3E0EE0
 P 8775 4925
 F 0 "U2" H 8700 4900 70  0000 L CNN
@@ -550,7 +550,7 @@ F 3 "" H 11175 3825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L flemming_parts:555 U3
+L neuromime_1.0.1-rescue:555-flemming_parts U3
 U 1 1 5D49F6D7
 P 11825 4925
 F 0 "U3" H 11750 4900 70  0000 L CNN
@@ -1174,7 +1174,7 @@ F 3 "" H 11175 6375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L flemming_parts:555 U4
+L neuromime_1.0.1-rescue:555-flemming_parts U4
 U 1 1 5D60A6D5
 P 11825 7475
 F 0 "U4" H 11775 7425 70  0000 L CNN

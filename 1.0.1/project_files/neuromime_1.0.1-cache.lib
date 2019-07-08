@@ -24,11 +24,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# flemming_parts_555
+# neuromime_1.0.1-rescue_555-flemming_parts
 #
-DEF flemming_parts_555 U 0 40 Y Y 1 F N
+DEF neuromime_1.0.1-rescue_555-flemming_parts U 0 40 Y Y 1 F N
 F0 "U" 0 -100 70 H V C CNN
-F1 "flemming_parts_555" 0 0 70 H V C CNN
+F1 "neuromime_1.0.1-rescue_555-flemming_parts" 0 0 70 H V C CNN
 F2 "" 0 0 118 H I C CNN
 F3 "" 0 0 118 H I C CNN
 DRAW

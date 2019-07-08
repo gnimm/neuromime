@@ -336,7 +336,7 @@ U 1 1 53A8280C
 P 3850 6175
 F 0 "RV2" H 3850 6075 50  0000 C CNN
 F 1 "BIASxct" H 3850 6175 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 3850 6175 50  0001 C CNN
+F 2 "flemming_feetprint_2016:Potentiometer_Bourns_3266W_Vertical_pin_variation" H 3850 6175 50  0001 C CNN
 F 3 "" H 3850 6175 50  0001 C CNN
 	1    3850 6175
 	0    1    -1   0   
@@ -415,7 +415,7 @@ F 3 "" H 2425 4625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L flemming_parts:555 U2
+L neuromime_1.0.1-rescue:555-flemming_parts U2
 U 1 1 5D3E0EE0
 P 8775 4925
 F 0 "U2" H 8700 4900 70  0000 L CNN
@@ -550,7 +550,7 @@ F 3 "" H 11175 3825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L flemming_parts:555 U3
+L neuromime_1.0.1-rescue:555-flemming_parts U3
 U 1 1 5D49F6D7
 P 11825 4925
 F 0 "U3" H 11750 4900 70  0000 L CNN
@@ -704,7 +704,7 @@ U 1 1 5D50DA72
 P 3850 5075
 F 0 "RV1" H 3850 4975 50  0000 C CNN
 F 1 "BIASinh" H 3850 5075 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical" H 3850 5075 50  0001 C CNN
+F 2 "flemming_feetprint_2016:Potentiometer_Bourns_3266W_Vertical_pin_variation" H 3850 5075 50  0001 C CNN
 F 3 "" H 3850 5075 50  0001 C CNN
 	1    3850 5075
 	0    1    1    0   
@@ -1174,7 +1174,7 @@ F 3 "" H 11175 6375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L flemming_parts:555 U4
+L neuromime_1.0.1-rescue:555-flemming_parts U4
 U 1 1 5D60A6D5
 P 11825 7475
 F 0 "U4" H 11775 7425 70  0000 L CNN

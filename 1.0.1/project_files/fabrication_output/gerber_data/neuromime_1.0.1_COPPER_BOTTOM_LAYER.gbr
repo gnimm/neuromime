@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.2-bee76a0~70~ubuntu18.04.1*
-G04 #@! TF.CreationDate,2019-07-07T19:22:12+02:00*
+G04 #@! TF.CreationDate,2019-07-08T10:40:53+02:00*
 G04 #@! TF.ProjectId,neuromime_1.0.1,6e657572-6f6d-4696-9d65-5f312e302e31,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L2,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.0.2-bee76a0~70~ubuntu18.04.1) date Sun 07 Jul 2019 07:22:12 PM CEST*
+G04 Created by KiCad (PCBNEW 5.0.2-bee76a0~70~ubuntu18.04.1) date Mon 08 Jul 2019 10:40:53 AM CEST*
 %MOMM*%
 %LPD*%
 G01*
@@ -62,11 +62,14 @@ G04 #@! TD*
 G04 #@! TA.AperFunction,ComponentPad*
 %ADD26C,1.440000*%
 G04 #@! TD*
-G04 #@! TA.AperFunction,Conductor*
-%ADD27C,0.250000*%
+G04 #@! TA.AperFunction,ComponentPad*
+%ADD27C,4.500000*%
 G04 #@! TD*
 G04 #@! TA.AperFunction,Conductor*
-%ADD28C,0.254000*%
+%ADD28C,0.250000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
+%ADD29C,0.254000*%
 G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
@@ -718,6 +721,11 @@ G04 #@! TO.N,Net-(C5-Pad1)*
 X141237000Y-48603000D03*
 G04 #@! TD*
 D27*
+G04 #@! TO.P,P1,1*
+G04 #@! TO.N,GND*
+X150000000Y-50000000D03*
+G04 #@! TD*
+D28*
 G04 #@! TO.N,GND*
 X170592000Y-66999900D02*
 X171635100Y-65956800D01*
@@ -1079,7 +1087,7 @@ X164542000Y-57112000D01*
 X172542000Y-57112000D02*
 X167970000Y-57112000D01*
 G04 #@! TD*
-D28*
+D29*
 G04 #@! TO.N,GND*
 G36*
 X174477572Y-53024475D02*

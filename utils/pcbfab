@@ -1,0 +1,103 @@
+#! /bin/bash
+#
+# PCBFAB
+#this script renames Kicad generated fabrication outputs to a standard
+#naming convention; seperates into gerber and drill data, places them into
+#directories; and zips them up
+#
+#updated 01-11-2016:
+#-NOTE: don't use PROTEL style extensions
+#-changed F.Cu & B.Cu to "Component" and "Copper", respectively
+#
+#updated 22-02-2016:
+#-changed wildcards to accommodate new-style (2015) Pcbnew output files
+#-automatically dates zip file and gives it proper project name instead 
+# of a generic one as in previous versions of this script
+#-copies zip file to a main fabrication directory (absolute path, is 
+# system dependent), handy for a project with multiple boards
+#
+#Future versions could:
+#-generate a descriptions file (based on input) and email to fabricator for quote
+#-be less clunky
+#
+f1=$(basename *.rpt)
+f2="${f1%.*}"
+f3="${f2::-4}" 
+mkdir drill_data\
+&& mkdir gerber_data\
+&& rename -v 's/\.drl$/\_DRILLFILE.drl/' *.drl\
+&& rename -v 's/\-drl_map.pdf$/\_DRILLMAP.pdf/' *.pdf\
+&& rename -v 's/\-drl_map.ps$/\_DRILLMAP.ps/' *.ps\
+&& rename -v 's/\-drl.rpt$/\_DRILL_REPORT.rpt/' *.rpt\
+&& rename -v 's/\-Copper.gbr$/\_COPPER_BOTTOM_LAYER.gbr/' *-Copper.gbr\
+&& rename -v 's/\-Component.gbr$/\_COPPER_TOP_LAYER.gbr/' *-Component.gbr\
+&& rename -v 's/\-B.Mask.gbr$/\_SOLDERMASK_BOTTOM.gbr/' *-B.Mask.gbr\
+&& rename -v 's/\-F.Mask.gbr$/\_SOLDERMASK_TOP.gbr/' *-F.Mask.gbr\
+&& rename -v 's/\-Edge.Cuts.gbr$/\_PCB_EDGES.gbr/' *-Edge.Cuts.gbr\
+&& rename -v 's/\-B.SilkS.gbr$/\_SILKSCREEN_BOTTOM.gbr/' *-B.SilkS.gbr\
+&& rename -v 's/\-F.SilkS.gbr$/\_SILKSCREEN_TOP.gbr/' *-F.SilkS.gbr\
+&& rename -v 's/\-Dwgs.User.gbr$/\_USER_REFERENCE.gbr/' *-Dwgs.User.gbr
+
+(
+echo    PCB NAME: "$f3"
+echo    DATE: "$(date +"%Y-%m-%d")"
+echo    AUTHOR: Peter Flemming
+echo 	CONTACT: info@peterflemming.ca
+echo	PCB SOFTWARE USED: KiCad/PcbNew
+echo
+) > README.txt
+
+(
+echo files in folder DRILL_DATA:
+echo    "$(basename *_DRILLFILE.drl)": Excellon drill file
+echo    "$(basename *_DRILLMAP.pdf)": drill map
+echo    "$(basename *_DRILL_REPORT.rpt)": drill report
+) >> README.txt
+
+drillfile=$(ls | grep NPTH_DRILLMAP)
+if  [[ "$drillfile" =~ .*NPTH.* ]]
+then
+	(	
+	echo    "$(basename *-NPTH_DRILLFILE.drl)": Excellon drill file, non-plated through-holes
+  	echo    "$(basename *-NPTH_DRILLMAP.pdf)": drill map, non-plated through-holes
+	) >> README.txt
+fi
+
+
+
+(
+echo     
+echo files in folder GERBER_DATA:
+echo    "$(basename *_COPPER_BOTTOM_LAYER.gbr)": copper layer, BOTTOM of board
+echo    "$(basename *_COPPER_TOP_LAYER.gbr)": copper layer, TOP of board
+echo    "$(basename *_SOLDERMASK_BOTTOM.gbr)": solder mask, BOTTOM of board 
+echo    "$(basename *_SOLDERMASK_TOP.gbr)": solder mask, TOP of board
+echo    "$(basename *_PCB_EDGES.gbr)": PCB edges cut out
+echo    "$(basename *_SILKSCREEN_TOP.gbr)": silkscreen/legend top of board
+) >> README.txt
+
+silkbottom=$(ls | grep SILKSCREEN_BOTTOM)
+if  [[ "$silkbottom" =~ .*BOTTOM.* ]]
+then
+	echo    "$(basename *_SILKSCREEN_BOTTOM.gbr)": silkscreen/legend bottom of board >> README.txt
+fi
+
+userref=$(ls | grep USER_REFERENCE)
+if  [[ "$userref" =~ .*USER.* ]]
+then
+	echo    "$(basename *_USER_REFERENCE.gbr)": reference layer, contains dimensions, user notes, diagrams etc. >> README.txt
+fi
+
+(
+echo
+echo PRODUCTION NOTES:
+echo -the GERBER format used by Pcbnew is RS274X format 4.6, Imperial, Leading zero omitted, Abs format
+) >> README.txt
+
+mv *DRILL*.* drill_data/\
+&& mv *.gbr gerber_data\
+&& zip -r "$f3-$(date +"%Y-%m-%d").zip" gerber_data drill_data README.txt\
+&& cp *.zip /home/gnimm/projects/schematics_pcb/to_fabricate/
+
+
+
