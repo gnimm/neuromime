@@ -1,4 +1,4 @@
-update=Sun 30 Jun 2019 12:20:16 AM CEST
+update=Mon 08 Jul 2019 06:24:26 PM CEST
 version=1
 last_client=eeschema
 [general]
