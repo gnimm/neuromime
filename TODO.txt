@@ -21,3 +21,8 @@ suggestions/ideas:
 -could smooth high frequency (HF) neuromime outputs, connect directly to amp/speaker for wavering dissonant tones 
 -HF outputs to dc motor speed (braitenberg?)
 
+-add self-activation button on each neuron
+-how to accomodate more than 3 I/O points?
+-3D networks using bendable/rigid cabling or right-angle male-male headers, etc.
+-neuromimes make Spiking Neural Networks (SNNs), which are more biologically plausible than continuous ANNs
+-SNNs are used primarily in neuroscience reseach, while continuous ANNs are currently more "practical" problem solvers, i.e. they are easier to train for certain prediction problems and entirely the basis for the AI "revolution" circa 2016
