@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/gnimm/projects/schematics_pcb/neuromime/1.0 .1/project_files/neuromime_1.0.1.sch</source>
+    <date>Mon 15 Jul 2019 07:39:49 AM CEST</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>2019-07-06</date>
+        <source>neuromime_1.0.1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>mnt</value>
+      <footprint>flemming_feetprint_2019:MountingHole_4.5mm_PTH</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CONN_1-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53AD01BF</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>axon</value>
+      <footprint>flemming_feetprint_2019:PinHeader_1x03_P2.54mm_Horizontal_elomgated_pads</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CONN_3-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53AA660B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="C-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53A8531C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="C-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53A84E8D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>flemming_feetprint_2019:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CP-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53A84A54</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>Clate</value>
+      <footprint>flemming_feetprint_2019:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CP-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53A84924</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>Rlate</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53A84922</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>Cpk_exct</value>
+      <footprint>flemming_feetprint_2019:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CP-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53A83F8D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>Rbld_xct</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53A83EEA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>flemming_feetprint_2019:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CP-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53A828B7</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>BIASxct</value>
+      <footprint>flemming_feetprint_2019:Potentiometer_Bourns_3266W_Vertical_pin_variation</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="POT-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53A8280C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM311</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="LM311N-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53A81D8F</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>inhibit</value>
+      <footprint>flemming_feetprint_2019:PinSocket_1x03_P2.54mm_Horizontal_elongated</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CONN_3-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D37863E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="DIODE-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D378651</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>555late</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>ns/lm555.pdf</datasheet>
+      <libsource lib="neuromime_1.0.1-rescue" part="555-flemming_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D3E0EE0</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="C-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D49F6B3</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="C-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D49F6BF</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>Rpout</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D49F6CB</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>555pout</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>ns/lm555.pdf</datasheet>
+      <libsource lib="neuromime_1.0.1-rescue" part="555-flemming_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D49F6D7</tstamp>
+    </comp>
+    <comp ref="W3">
+      <value>ENrest</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="TEST-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4BA043</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>Cpk_inh</value>
+      <footprint>flemming_feetprint_2019:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CP-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D50DA60</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>Rbld_inh</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D50DA66</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>BIASinh</value>
+      <footprint>flemming_feetprint_2019:Potentiometer_Bourns_3266W_Vertical_pin_variation</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="POT-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D50DA72</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>Zinh</value>
+      <footprint>flemming_feetprint_2019:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_pad_numbers_reversed</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D52F850</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>excite</value>
+      <footprint>flemming_feetprint_2019:PinSocket_1x03_P2.54mm_Horizontal_elongated</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CONN_3-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53B932</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="DIODE-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53B944</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>Zxct</value>
+      <footprint>flemming_feetprint_2019:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_pad_numbers_reversed</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D53B94A</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>excite</value>
+      <footprint>flemming_feetprint_2019:PinSocket_1x03_P2.54mm_Horizontal_elongated</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CONN_3-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D540035</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="DIODE-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D540047</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>Zxct</value>
+      <footprint>flemming_feetprint_2019:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_pad_numbers_reversed</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D54004D</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>excite</value>
+      <footprint>flemming_feetprint_2019:PinSocket_1x03_P2.54mm_Horizontal_elongated</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CONN_3-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D544DBD</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="DIODE-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D544DCF</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>Zxct</value>
+      <footprint>flemming_feetprint_2019:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical_pad_numbers_reversed</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D544DD5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="C-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5A1DA8</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>27K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5A1EEC</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5A7B4F</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5B92D3</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5B936B</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="C-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D60A6B1</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="C-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D60A6BD</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>Crest</value>
+      <footprint>flemming_feetprint_2019:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CP-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D60A6C3</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>Rrest</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D60A6C9</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>555rest</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm_Socket</footprint>
+      <datasheet>ns/lm555.pdf</datasheet>
+      <libsource lib="neuromime_1.0.1-rescue" part="555-flemming_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D60A6D5</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="C-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6AB3B5</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6AB3BB</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D6AB3C1</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="DIODE-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D70F954</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>axon</value>
+      <footprint>flemming_feetprint_2019:PinHeader_1x03_P2.54mm_Horizontal_elomgated_pads</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CONN_3-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D777850</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>axon</value>
+      <footprint>flemming_feetprint_2019:PinHeader_1x03_P2.54mm_Horizontal_elomgated_pads</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CONN_3-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D77E778</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>long</value>
+      <footprint>flemming_feetprint_2016:PinHeader_1x03_P2.54mm_Horizontal_elomgated_pads</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CONN_3-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D785996</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>Rled</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7C8C0D</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D7C8E43</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>Cpout</value>
+      <footprint>flemming_feetprint_2019:CP_Radial_D5.0mm_P2.50mm_positive_symbol_inside_single_correction</footprint>
+      <libsource lib="neuromime_1.0.1-rescue" part="CP-neuromime_1.0.0-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D216FD8</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4001</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D251C57</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <aliases>
+        <alias>1N4002</alias>
+        <alias>1N4003</alias>
+        <alias>1N4004</alias>
+        <alias>1N4005</alias>
+        <alias>1N4006</alias>
+        <alias>1N4007</alias>
+        <alias>BA157</alias>
+        <alias>BA158</alias>
+        <alias>BA159</alias>
+      </aliases>
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="neuromime_1.0.1-rescue" part="555-flemming_parts">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">555-flemming_parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="neuromime_1.0.1-rescue" part="C-neuromime_1.0.0-rescue">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-neuromime_1.0.0-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="neuromime_1.0.1-rescue" part="CONN_1-neuromime_1.0.0-rescue">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1-neuromime_1.0.0-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="neuromime_1.0.1-rescue" part="CONN_3-neuromime_1.0.0-rescue">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CONN_3-neuromime_1.0.0-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="neuromime_1.0.1-rescue" part="CP-neuromime_1.0.0-rescue">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-neuromime_1.0.0-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="neuromime_1.0.1-rescue" part="DIODE-neuromime_1.0.0-rescue">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-neuromime_1.0.0-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="neuromime_1.0.1-rescue" part="LM311N-neuromime_1.0.0-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM311N-neuromime_1.0.0-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="+" type="input"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="V-" type="input"/>
+        <pin num="5" name="BAL" type="passive"/>
+        <pin num="6" name="B/S" type="passive"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="neuromime_1.0.1-rescue" part="POT-neuromime_1.0.0-rescue">
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT-neuromime_1.0.0-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="neuromime_1.0.1-rescue" part="R-neuromime_1.0.0-rescue">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-neuromime_1.0.0-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="neuromime_1.0.1-rescue" part="TEST-neuromime_1.0.0-rescue">
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST-neuromime_1.0.0-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="neuromime_1.0.1-rescue">
+      <uri>/home/gnimm/projects/schematics_pcb/neuromime/1.0 .1/project_files/neuromime_1.0.1-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="K1" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="P4" pin="1"/>
+      <node ref="K3" pin="1"/>
+      <node ref="K4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="K2" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="3" name="VCC">
+      <node ref="R13" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="5" name="Net-(C6-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="7" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad1)">
+      <node ref="K4" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="10" name="VDD">
+      <node ref="P5" pin="3"/>
+      <node ref="K4" pin="3"/>
+      <node ref="K2" pin="3"/>
+      <node ref="K1" pin="3"/>
+      <node ref="K3" pin="3"/>
+      <node ref="P3" pin="3"/>
+      <node ref="D7" pin="2"/>
+      <node ref="P4" pin="3"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad1)">
+      <node ref="K2" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C11-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C10-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="14" name="Net-(P2-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="P4" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="15" name="Net-(D6-Pad2)">
+      <node ref="R15" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="16" name="Net-(P5-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="W3" pin="2"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D5-Pad1)">
+      <node ref="W3" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C10-Pad2)">
+      <node ref="R10" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="K1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="21" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="22" name="Net-(D4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C8-Pad1)">
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="25" name="refractory">
+      <node ref="U1" pin="2"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C5-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="RV2" pin="2"/>
+    </net>
+    <net code="28" name="Net-(D2-Pad1)">
+      <node ref="K3" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C15-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C14-Pad1)">
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="7"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+  </nets>
+</export>

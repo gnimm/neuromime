@@ -1,0 +1,180 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 555-flemming_parts-neuromime_1.0.1-rescue
+#
+DEF 555-flemming_parts-neuromime_1.0.1-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 -100 70 H V C CNN
+F1 "555-flemming_parts-neuromime_1.0.1-rescue" 0 0 70 H V C CNN
+F2 "" 0 0 118 H I C CNN
+F3 "" 0 0 118 H I C CNN
+DRAW
+S 400 -400 -400 400 0 1 0 N
+X GND 1 -700 -150 300 R 60 60 0 0 W
+X VCC 8 -700 150 300 R 60 60 0 0 W
+X TR 2 -200 -700 300 U 60 60 1 1 I
+X Q 3 700 0 300 L 60 60 1 1 O
+X R 4 200 -700 300 U 60 60 1 1 I I
+X CV 5 200 700 300 D 60 60 1 1 I
+X THR 6 0 700 300 D 60 60 1 1 I
+X DIS 7 -200 700 300 D 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# C-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue
+#
+DEF C-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "C-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue" 50 -100 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -100 -30 100 -30 N
+P 2 0 1 20 -100 30 100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_1-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue
+#
+DEF ~CONN_1-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue P 0 30 N N 1 F N
+F0 "P" 80 0 40 H V L CNN
+F1 "CONN_1-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue" 0 55 30 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 31 0 1 0 N
+P 2 0 1 0 -30 0 -50 0 N
+X 1 1 -150 0 100 R 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_3-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue
+#
+DEF CONN_3-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue K 0 40 Y N 1 F N
+F0 "K" -50 0 50 V V C CNN
+F1 "CONN_3-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue" 50 0 40 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 150 100 -150 0 1 0 N
+X P1 1 -350 100 250 R 60 60 1 1 P I
+X PM 2 -350 0 250 R 60 60 1 1 P I
+X P3 3 -350 -100 250 R 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# CP-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue
+#
+DEF CP-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue C 0 10 N N 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "CP-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue" 50 -100 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+P 4 0 1 8 -100 50 -100 -50 100 -50 100 50 N
+P 4 0 1 0 -50 50 -50 -20 50 -20 50 50 F
+X ~ 1 0 200 150 D 40 40 1 1 P
+X ~ 2 0 -200 150 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue
+#
+DEF ~GND-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 0 30 H I C CNN
+F1 "GND-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue" 0 -70 30 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 4 0 1 0 -50 0 0 -50 50 0 -50 0 N
+X GND 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# LM311N-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue
+#
+DEF LM311N-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue U 0 20 Y Y 1 F N
+F0 "U" 200 300 70 H V C CNN
+F1 "LM311N-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue" 200 200 70 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -200 -200 -200 200 N
+P 2 0 1 0 -200 200 200 0 N
+P 2 0 1 0 0 -200 -50 -129 N
+P 2 0 1 0 100 -200 0 -100 N
+P 2 0 1 0 200 -100 100 -50 N
+P 2 0 1 0 200 0 -200 -200 N
+X GND 1 0 -400 200 U 40 20 1 1 I
+X + 2 -500 100 300 R 40 40 1 1 I
+X - 3 -500 -100 300 R 40 40 1 1 I
+X V- 4 -100 -400 250 U 40 40 1 1 I
+X BAL 5 100 -400 200 U 40 20 1 1 P
+X B/S 6 500 -100 300 L 40 20 1 1 P
+X ~ 7 500 0 300 L 40 40 1 1 O
+X V+ 8 -100 400 250 D 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# POT-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue
+#
+DEF POT-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue RV 0 40 Y N 1 F N
+F0 "RV" 0 -100 50 H V C CNN
+F1 "POT-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 50 150 -50 0 1 0 N
+P 3 0 1 0 0 50 -20 70 20 70 F
+X 1 1 -250 0 100 R 40 40 1 1 P
+X 2 2 0 150 80 D 40 40 1 1 P
+X 3 3 250 0 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue
+#
+DEF R-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue" 0 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R?
+ SM0603
+ SM0805
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 8 N
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TEST-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue
+#
+DEF TEST-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue W 0 30 N N 1 F N
+F0 "W" 0 60 40 H V C CNN
+F1 "TEST-neuromime_1.0.0-rescue-neuromime_1.0.1-rescue" 0 -70 40 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -70 0 30 0 1 0 N
+C 70 0 30 0 1 0 N
+X 1 1 -200 0 100 R 60 60 0 1 P
+X 2 2 200 0 100 L 60 60 0 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

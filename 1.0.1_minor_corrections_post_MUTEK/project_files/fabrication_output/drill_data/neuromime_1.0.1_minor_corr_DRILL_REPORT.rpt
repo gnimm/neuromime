@@ -1,0 +1,27 @@
+Drill report for /home/gnimm/projects/schematics_pcb/neuromime/1.0.1_minor_corrections_post_MUTEK/project_files/neuromime_1.0.1_minor_corr.kicad_pcb
+Created on Mon 26 Aug 2019 04:35:59 PM EDT
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'neuromime_1.0.1_minor_corr-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.70mm  0.028"  (30 holes)
+    T2  0.80mm  0.031"  (84 holes)
+    T3  0.90mm  0.035"  (2 holes)
+    T4  1.00mm  0.039"  (30 holes)
+    T5  1.10mm  0.043"  (2 holes)
+
+    Total plated holes count 148
+
+
+Drill file 'neuromime_1.0.1_minor_corr-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  4.50mm  0.177"  (1 hole)
+
+    Total unplated holes count 1
