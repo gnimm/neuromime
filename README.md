@@ -27,7 +27,7 @@ PROPERTIES OF AN ORGANIC NEURON
 
 TECHNICAL
 
--these folders contains files for a printed circuit board generated with KiCad, build: (2012-apr-16-27), http://www.kicad-pcb.org
+-these folders contains files for a printed circuit board generated with KiCad, build: (2012-apr-16-27), http://www.kicad.org
 
 -important technical annotation is contained in Norman's original schematic in the "ref" folder
 
